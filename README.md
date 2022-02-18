@@ -1,3 +1,42 @@
+Dear candidate,
+
+ 
+
+This is a technical testing Kata that we will use to gain insight and understanding into your approach to software test automation.
+
+We are looking to assess your thought process, problem solving and programming ability, as well as how you create and manage value adding automated tests.
+
+ 
+
+Part one:  UI Test
+
+ 
+
+Please automate the following process:
+
+Navigate to https://www.investec.com/
+Using the search functionality, look for the cash investment rates information page (which is located here: https://www.investec.com/en_za/focus/money/understanding-interest-rates.html)" 
+Navigate to: “Understanding cash investment interest rates”
+Sign up to receive focus insights straight to your inbox – you can use test@investec.co.za as the email address
+Ensure that the sign up process is successful
+ 
+
+Part two: API Test
+
+ 
+
+Create an API Test that executes a GET request to: https://swapi.dev/api/people/ and assert that R2-D2’s skin colour is white and blue.
+
+ 
+
+Requirements:
+
+You can use any language or programming tool of your choice
+
+Please upload your code to github and share the project URL with us
+
+Ensure that the code is runnable and the steps to set up the project are included in a readme
+
 # investecassessment
 This is an assessment provided by Investec for Mlungisi Mbele to complete
 
