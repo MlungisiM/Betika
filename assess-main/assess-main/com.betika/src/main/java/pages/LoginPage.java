@@ -18,6 +18,8 @@ public class LoginPage extends DriverHandler {
     WebElement checkbox;
     @FindBy(xpath = "//button[contains(@class, 'login')]")
     WebElement loginButton;
+    @FindBy(xpath = "//div[@id='notifications-root']/div/div")
+    public WebElement successmessage;
     WebDriverWait wait;
 
     //Initialize Page Objects

@@ -1,5 +1,5 @@
-import com.fasterxml.jackson.core.JsonProcessingException;
 import common.DriverHandler;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

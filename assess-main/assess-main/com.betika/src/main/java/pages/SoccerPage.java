@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+
 public class SoccerPage extends DriverHandler {
     //Page Objects
     @FindBy(xpath = "/html/body/div[2]/main/div/div[3]/div/div/div[2]/div/div[2]/div[7]/div[2]/div[2]/div/button[1]/span")
@@ -19,7 +20,7 @@ public class SoccerPage extends DriverHandler {
     @FindBy(xpath = "//div[2]/div[2]/div/button/span")
     WebElement teamselection;
 
-    @FindBy(xpath = "//a[contains(text(),'Vallecano Vs. Osasuna')]")
+    @FindBy(xpath = "//a[contains(text(),'Milan Vs. Napoli')]")
     public WebElement selectedOption;
 
     @FindBy(xpath = "//div[2]/div/div[2]/div/button/span")

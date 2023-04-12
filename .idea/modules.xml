@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/betikaassessment.iml" filepath="$PROJECT_DIR$/.idea/betikaassessment.iml" />
-      <module fileurl="file://$PROJECT_DIR$/assess-main/assess-main/com.investec/com.betika.iml" filepath="$PROJECT_DIR$/assess-main/assess-main/com.investec/com.betika.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assess-main/assess-main/com.betika/com.betika.iml" filepath="$PROJECT_DIR$/assess-main/assess-main/com.betika/com.betika.iml" />
     </modules>
   </component>
 </project>

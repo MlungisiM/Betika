@@ -32,14 +32,14 @@ public class BetikaWebsite extends DriverHandler {
         loginPage.enterPassword(passWord);
         loginPage.clickCheckbox();
         loginPage.clickLoginbutton();
-        //Add assertion
+        Assert.assertTrue(loginPage.successmessage.isDisplayed());
     }
 
     @Test(priority = 2)
     public void PlaceBet() {
         driver.get(soccermatches);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        soccerpage.selectDay();
+        //soccerpage.selectDay();
         soccerpage.selectteam();
         soccerpage.clearamountTexbox();
         soccerpage.enterAmount();
