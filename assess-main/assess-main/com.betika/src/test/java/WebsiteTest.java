@@ -1,6 +1,4 @@
 import common.DriverHandler;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,7 +7,7 @@ import pages.SoccerPage;
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.AfterMethod;
 
-public class BetikaWebsite extends DriverHandler {
+public class WebsiteTest extends DriverHandler {
     String soccermatches = getProp().getProperty("url.soccermatches");
     String login = getProp().getProperty("url.login");
     String PhoneNumber = getProp().getProperty("phonenumber");

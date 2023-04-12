@@ -102,13 +102,11 @@ Framework consists of following modules / packages:
 •	pages (web applications page factory), 
 •	resources(api and web config.properties file)
 
-```
-
 ```bash
 Web and API tests use TestNG annotations following the same structure:
 
 @BeforeMethod – This is the precondition / setup of the tests
-@Test – steps to run
+@APITest – steps to run
 @AfterMethod – Post condition / resetting the driver into its initial state 
 
 ```
@@ -116,4 +114,9 @@ Web and API tests use TestNG annotations following the same structure:
 ### To execute Tests
 
 Right click on the test file and click on maven tests
+
+### Reporting
+
+Due to time constraints, maven surefire reporting was implemented for reporting as opposed to EXTENT REPORTS
+as initially planned, after running a test, the report can be found in target -> surefire reports -> emailable-report.html or the respective test folders
 

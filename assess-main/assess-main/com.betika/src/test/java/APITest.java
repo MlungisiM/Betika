@@ -4,15 +4,14 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
-import org.testng.annotations.Test;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 
-public class InvestecApi extends DriverHandler {
+public class APITest extends DriverHandler {
     String url = getProp().getProperty("api.url");
 
-    @Test
+    @org.testng.annotations.Test
     public void BetikaAPI() throws JsonProcessingException {
 
         Response response = (Response) RestAssured.given().
