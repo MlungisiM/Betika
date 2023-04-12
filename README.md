@@ -107,9 +107,9 @@ Framework consists of following modules / packages:
 ```bash
 Web and API tests use TestNG annotations following the same structure:
 
-@BeforeClass – This is the precondition / setup of the tests
+@BeforeMethod – This is the precondition / setup of the tests
 @Test – steps to run
-@AfterClass – Post condition / resetting the driver into its initial state 
+@AfterMethod – Post condition / resetting the driver into its initial state 
 
 ```
 
