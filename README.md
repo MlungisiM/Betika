@@ -1,32 +1,52 @@
-Dear candidate,
+The Brief
 
- 
+As part of the selection process for the Quality Assurance Engineer role, you are required to complete a technical test to help us get a feel of your practical skills given a real-world problem.
 
-This is a technical testing Kata that we will use to gain insight and understanding into your approach to software test automation.
+Instructions
 
-We are looking to assess your thought process, problem solving and programming ability, as well as how you create and manage value adding automated tests.
+This assessment has two sections: UI automation and API automation. Please complete both sections. The complete task should be submitted by Tuesday, 11th April, 2023, 5.00pm EAT.
 
- 
+The challenge - UI Automation
 
-Part one:  UI Test
+Instructions
 
- 
+As a Quality Assurance Engineer for Betika, you have been tasked with ensuring that new changes to the
+website do not break existing functionality. The scope of this assignment is login authentication and
+placing bets on the website.
+1. Come up with automated test cases that can be ran against new PRs to ensure they don’t break
+   existing functionality.
+2. Use the pages provided below as your test surfaces.
+3. For placing bets, you will need to programmatically add picks to the betslip and place a bet.
+4. The challenge is in the choice of tools you use,your mastery of those tools and how you organize and
+   communicate your work.
+5. Commit your assessment to a repository of your choice.
+6. Your choice of tool should share an automated report including the test cases, methodology and
+   results.
+7. Feel free to seek any clarification by email.
+   Success criteria
+   Bonus
+1. Automated test report
+2. Working codebase
+3. Thorough test cases
+1. Add other test cases
+2. Scalable application
+3. Usage of Gitlab CI/CD
 
-Please automate the following process:
+Resources
+Login: https://www.betika.com/en-ke/login
+Soccer matches: https://www.betika.com/en-ke/s/soccer 
+Placebo: https://www.betika.com/en-ke/betslip
+(We shall send you details privately about temporary test accounts that you can use)
 
-Navigate to https://www.investec.com/
-Using the search functionality, look for the cash investment rates information page (which is located here: https://www.investec.com/en_za/focus/money/understanding-interest-rates.html)" 
-Navigate to: “Understanding cash investment interest rates”
-Sign up to receive focus insights straight to your inbox – you can use test@investec.co.za as the email address
-Ensure that the sign up process is successful
- 
+The challenge - API Automation
 
-Part two: API Test
+Instructions
 
- 
-
-Create an API Test that executes a GET request to: https://swapi.dev/api/people/ and assert that R2-D2’s skin colour is white and blue.
-
+1. Come up with automated test cases that can be run against a test api-
+   https://fakerestapi.azurewebsites.net/api/v1/Users
+   Success criteria
+2. Working tests
+3. Commit your assessment to a repository of your choice.
  
 
 Requirements:
@@ -37,8 +57,8 @@ Please upload your code to github and share the project URL with us
 
 Ensure that the code is runnable and the steps to set up the project are included in a readme
 
-# investecassessment
-This is an assessment provided by Investec for Mlungisi Mbele to complete
+# Betika.comassessment
+This is an assessment provided by Betika.com for Mlungisi Mbele to complete
 
 # Selenium-RestAssured Hybrid Framework
 
@@ -51,10 +71,10 @@ This project is a Maven project. To access this project, import this project dir
 ## Prerequisites
 
 ```bash
-IntelliJ IDEA Community 2018.x
-JRE-9.0.x
-JDK-9.0.x
-Chrome Web browser
+IntelliJ IDEA
+JRE-8.0.x
+JDK-8.0.x
+Chrome Web browser (for this test but any browser may be used)
 
 ```
 
@@ -95,5 +115,5 @@ Web and API tests use TestNG annotations following the same structure:
 
 ### To execute Tests
 
-Right click on the pom.xml file and click on maven tests
+Right click on the test file and click on maven tests
 
